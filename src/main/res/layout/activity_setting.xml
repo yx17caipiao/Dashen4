@@ -83,4 +83,9 @@
         android:layout_height="wrap_content"
         zdy:desc="zdgx"
         ></mobilsafe.a520it.www.dashen4.views.SettingItemView>
+    <mobilsafe.a520it.www.dashen4.views.SettingItemView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        zdy:desc="zdgx"
+        ></mobilsafe.a520it.www.dashen4.views.SettingItemView>
 </LinearLayout>
