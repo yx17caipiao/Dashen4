@@ -2,5 +2,8 @@
 <resources>
     <declare-styleable name="SettingItemView">
         <attr name="desc" format="string"/>
+        <attr name="position">
+            <enum name="f" value="0"></enum>
+        </attr>
     </declare-styleable>
 </resources>

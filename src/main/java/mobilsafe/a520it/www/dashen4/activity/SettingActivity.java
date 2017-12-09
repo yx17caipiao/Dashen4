@@ -8,6 +8,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import mobilsafe.a520it.www.dashen4.R;
+import mobilsafe.a520it.www.dashen4.views.SettingItemView;
 
 /**
  * Created by u on 2017/11/28.
@@ -18,6 +19,8 @@ public class SettingActivity extends Activity {
     private RelativeLayout rv_setting_update;
     private RelativeLayout rv_setting_blackinterface;
     private ImageView iv_setting_update;
+
+    private SettingItemView siv_update;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -38,6 +41,13 @@ public class SettingActivity extends Activity {
                 iv_setting_update.setImageResource(R.drawable.b);
             }
         });
+
+        siv_update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
     private void initView() {
@@ -45,5 +55,6 @@ public class SettingActivity extends Activity {
         rv_setting_update = (RelativeLayout)findViewById(R.id.rv_setting_update);
         rv_setting_blackinterface = (RelativeLayout)findViewById(R.id.rv_setting_blackinterface);
         iv_setting_update = (ImageView)findViewById(R.id.iv_setting_update);
+        siv_update = (SettingItemView)findViewById(R.id.siv_update);
     }
 }
