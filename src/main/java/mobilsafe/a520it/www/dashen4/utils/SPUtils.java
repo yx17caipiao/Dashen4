@@ -3,7 +3,7 @@ package mobilsafe.a520it.www.dashen4.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import mobilsafe.a520it.www.dashen4.Constant;
+import mobilsafe.a520it.www.dashen4.conf.Constant;
 
 /**
  * Created by SaRo on 2017/10/22.

@@ -1,4 +1,4 @@
-package mobilsafe.a520it.www.dashen4;
+package mobilsafe.a520it.www.dashen4.conf;
 
 /**
  * Created by SaRo on 2017/10/22.
