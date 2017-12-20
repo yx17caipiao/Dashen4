@@ -2,6 +2,7 @@ package mobilsafe.a520it.www.dashen4.activity;
 
 import android.animation.ObjectAnimator;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.media.Image;
 import android.os.Bundle;
@@ -70,6 +71,7 @@ public class HomeActivity extends Activity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
                 switch (position){
                     case 0:
+                        showSetPasswordDialog();
                         break;
                     case 1:
                         break;
@@ -86,6 +88,14 @@ public class HomeActivity extends Activity {
         });
     }
 
+
+    private void showSetPasswordDialog(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+        View view = View.inflate(getApplicationContext(),R.layout.alter_set_pass,null);
+
+        builder.setView(view);
+        builder.show();
+    }
 
     class HomeAdapter extends BaseAdapter{
 

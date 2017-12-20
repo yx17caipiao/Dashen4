@@ -4,8 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
     <TextView
+        style="@style/tv_title"
+        android:text="password"
+        />
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="password"
+        android:hint="fpassword"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tpassword"
         />
 </LinearLayout>
